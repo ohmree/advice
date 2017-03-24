@@ -6,6 +6,5 @@ A program that fetches advices from the internet
 Currently only supports Clozure Common Lisp, only tested on windows (make sure you have `ccl` on your `%PATH%`)  
 `ccl -l make.lisp`  
 (Doesn't work because I don't know a whole lot about packaging Common Lisp programs,
-```lisp
-(load "make.lisp")
-``` in CCL that has Quicklisp should work)
+`lisp
+(load "make.lisp")` in CCL that has Quicklisp should work)
