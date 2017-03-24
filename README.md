@@ -8,7 +8,7 @@ Currently only supports Clozure Common Lisp, only tested on windows (make sure y
 ccl -l make.lisp
 ```
 
-If the above doesn't work (because I don't know a whole lot about packaging Common Lisp programs) the following shoudl work in the REPL of a CCL installation that has Quicklisp:  
+If the above doesn't work (because I don't know a whole lot about packaging Common Lisp programs) the following should work in the REPL of a CCL installation that has Quicklisp:  
 ```lisp
 (load "make.lisp")
 ```
